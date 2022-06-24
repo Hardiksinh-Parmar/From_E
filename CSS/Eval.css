@@ -1,0 +1,142 @@
+body{
+    border: 150px solid rgb(242, 215, 220);
+   background-color: white;
+   background-size: 75%;
+   font-size: 16px;
+ }
+ form{
+   background-color: rgb(242, 239, 239);
+   padding: 5%;
+   
+   background-size: 75%;
+ }
+ table,th,td{
+   border: 1px solid black;
+   border-collapse:collapse ;
+   size: 10px;
+ }
+ 
+ input[type=text1],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid black;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=text2],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid black;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=text3],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid black;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ 
+ input[type=text4],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid black;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=text5],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=text6],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=number1],select{
+   width: 93%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=number2],select{
+   width: 93%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=email],select{
+   width: 45%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=text7],select{
+   width: 93%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ input[type=text8],select{
+   width: 93%;
+   padding: 12px 15px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid#ccc;
+   border-radius: 4px;
+   box-sizing: content-box;
+ }
+ .submit{
+   background-color:white;
+   border: none;
+   size: 150%;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline inline-block;
+   font-size: 16px;margin: 4px 2px;
+   cursor: pointer;
+   float: right;
+ }
+
+ label.error{
+  color: red;
+  font-size: 15px;
+  display: block;
+  margin-top: 5px;
+}
+input.error,textarea.error{
+  border: 1px ;
+  font-weight: 300;
+  
+}

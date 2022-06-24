@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../CSS/Eval.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- <script src="../Js/jquery.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="../js/jquery.validate.min.js"></script>
+  <!-- <script src="../JS/Test_1.js"></script> -->
+</head>
+
+<body>
+  <div>
+    <form class="form" id="form" action="Test_2.html" method="get" target="_blank">
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+
+          <label for="name">Name:<span style="color: red ;">*</span></label>
+          <input type="text1" id="name" name="name"><br>
+
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+
+          <label for="age">Age:<span style="color: red ;">*</span></label>
+          <input type="text1" id="age" name="age"><br>
+
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+
+          <label for="email">E-mail:<span style="color: red ;">*</span></label>
+          <input type="text1" id="email" name="email"placeholder="abc@tntra.io"><br>
+
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+
+          <label for="phone">Phone number:<span style="color: red ;">*</span></label>
+          <input type="text1" id="phone" name="phone"placeholder="0000000000"maxlength=10><br>
+
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-1">
+          <h4>Gender:<span style="color: red ;">*</span></h4>
+        </div>
+        <div class="col-sm-2">
+          <label for="male">Male <input type="radio" id="male" name="gender" value="male"></label>
+        </div>
+        <div class="col-sm-2">
+          <label for="female">Female <input type="radio" id="female" name="gender" value="female"></label>
+        </div>
+        <div class="col-sm-2">
+          <label for="others">Others <input type="radio" id="others" name="gender" value="others"></label>
+        </div>
+
+        <p id="OPr"></p><br>
+      </div>
+      <br>
+      <div>
+        <div>
+          
+          <label for="config"><input type="checkbox" id="config" name="config"><b>NEXT-DAY CONFIGURATION<span style="color: red ;">*</span></b><br>
+            <p id="here">set Next-day Pick-up time</p>
+          </label>
+          <br>
+
+        </div>
+        <div class="row"id="check">
+          <div class="col-sm-4">
+            
+            <label for="sunday"><input type="checkbox" id="sunday" name="sunday" value="sunday"><b>Sunday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="sun" id="sun">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="checkbox" id="monday" name="monday" value="monday">
+            <label for="monday"><b>Monday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="mon" id="mon">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+            <label for="tuesday"><b>Tuesday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="tues" id="tues">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+            <label for="wednesday"><b>Wednesday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="wed" id="wed">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="checkbox" id="thursday" name="thursday" value="thusday">
+            <label for="thursday"><b>Thursday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="thurs" id="thurs">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="checkbox" id="friday" name="friday" value="friday">
+            <label for="friday"><b>Friday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="fri" id="fri">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="checkbox" id="saturday" name="saturday" value="saturday">
+            <label for="saturday"><b>Saturday</b></label>
+          </div>
+          <div class="col-sm-4">
+            <select name="sat" id="sat">
+              <option value="pickupTime" selected="selected">-Select Pick Up Time-</option>
+              <option value="00.00">00.00</option>
+              <option value="01.00">01.00</option>
+              <option value="02.00">02.00</option>
+              <option value="03.00">03.00</option>
+              <option value="04.00">04.00</option>
+              <option value="05.00">05.00</option>
+              <option value="06.00">06.00</option>
+              <option value="07.00">07.00</option>
+              <option value="08.00">08.00</option>
+              <option value="09.00">09.00</option>
+              <option value="10.00">10.00</option>
+              <option value="11.00">11.00</option>
+              <option value="12.00">12.00</option>
+              <option value="13.00">13.00</option>
+              <option value="14.00">14.00</option>
+              <option value="15.00">15.00</option>
+              <option value="16.00">16.00</option>
+              <option value="17.00">17.00</option>
+              <option value="18.00">18.00</option>
+              <option value="19.00">19.00</option>
+              <option value="20.00">20.00</option>
+              <option value="21.00">21.00</option>
+              <option value="22.00">22.00</option>
+              <option value="23.00">23.00</option>
+            </select>
+          </div>
+          <br>
+        </div>
+        <br>
+      </div>
+      <button type="submit" class="submit" id="submit" name="Submit">Submit</button><br> <br>
+    </form>
+  </div>
+  <script src="../JS/file1.js"></script>
+</body>
+
+</html>
